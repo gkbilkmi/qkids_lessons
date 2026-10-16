@@ -1,0 +1,1 @@
+本节课我们阅读了《Melting Ice Cubes》，一个关于彩色冰块在温暖环境中慢慢融化成彩色水的科学小故事。重点单词回顾：red 红色，yellow 黄色，green 绿色，ice cube 冰块，melt 融化，liquid 液体，freeze 结冰，water 水，mix 混合，together 一起。整节课宝贝注意力很集中，能跟着老师观察冰块融化的过程，主动尝试用完整的句子描述颜色的变化。课下你可以和宝贝一起做冰块融化实验，观察不同颜色冰块融化的速度，用英语描述 "The red ice cube is melting"，相信你会越说越流利喔。非常棒，继续加油！

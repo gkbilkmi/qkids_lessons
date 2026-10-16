@@ -1,0 +1,1 @@
+本节课我们阅读了《Buds for Mom》，一个关于孩子挑选彩色花蕾送给妈妈的温暖故事。重点单词回顾：bud 花蕾，red 红色，blue 蓝色，yellow 黄色，jug 水壶，for 给，thank you 谢谢。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。能积极跟读 "I have a bud. It is..." 句型并尝试用 red、blue、yellow 描述不同颜色的花蕾，也能理解 "for mom" 表示把花送给妈妈。课下你可以多指着身边物品用 "It is + 颜色" 进行描述，比如 red apple、blue pen、yellow banana，也可以练习 "something for someone" 句型，相信你描述颜色和表达心意的句子会越来越丰富喔。非常棒，继续加油！

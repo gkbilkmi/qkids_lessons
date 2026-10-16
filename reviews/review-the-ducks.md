@@ -1,0 +1,1 @@
+本节课我们阅读了《The Ducks》，一个怕鸭子的小男孩在公园里被鸭子"步步紧跟"、哭笑不得的幽默故事。重点单词回顾：feed the ducks 喂鸭子，be scared of 害怕，bank 河岸，beak 喙，climb 爬，shiny 闪亮的，wall 墙。整节课宝贝能主动用英语表达自己的想法，并围绕绘本内容与老师展开积极讨论。课下你可以结合生活场景练习本课两个实用句型："Do you want to...?"（邀请）和 "I'm scared of..."（表达恐惧），再和宝贝一起复习一般过去时动词 forgot / went / saw / climbed，相信你会越说越流利喔。非常棒，继续加油！

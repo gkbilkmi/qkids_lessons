@@ -1,0 +1,1 @@
+本节课我们阅读了《The Library》，一个关于两个小朋友在图书馆发现各种书的故事。重点单词回顾：library 图书馆，shelf 书架，whale 鲸鱼，apple 苹果，surprised 惊讶的，thick 厚的，thin 薄的。整节课宝贝注意力很集中，单词和句子的认读都比较到位，也能主动尝试用完整的句子表达自己的想法。课下你可以用 "Look, look! It's a ____ book." 句型做替换练习，用 big、small、fat、slim 等形容词填空，再借助实物对比帮助理解 big/small、fat/slim 这两组反义词，相信你会越说越流利喔。非常棒，继续加油！

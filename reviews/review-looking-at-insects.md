@@ -1,0 +1,1 @@
+本节课我们阅读了《Looking at Insects》，一个认识蝴蝶、甲虫、蚂蚁等昆虫朋友、观察昆虫身体构造的科普故事。重点单词回顾：butterfly 蝴蝶，beetle 甲虫，ant 蚂蚁，dragonfly 蜻蜓，fly 苍蝇，bee 蜜蜂，insect 昆虫，head 头，chest 胸，stomach 肚子，six legs 六条腿，wings 翅膀。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。单词和句子的认读都比较到位，也能主动尝试用完整的句子表达自己的想法。课下你可以重点复习 dragonfly 的发音，再用 "It has…" 的句式说说小动物的身体部位，相信你会越说越流利喔。非常棒，继续加油！

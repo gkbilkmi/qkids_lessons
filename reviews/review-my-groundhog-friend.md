@@ -1,0 +1,1 @@
+本节课我们阅读了《My Groundhog Friend》，一个关于小狗 Spot 和土拨鼠从比赛到玩捉迷藏的有趣故事。重点单词回顾：groundhog 土拨鼠，race 比赛，have a race 进行比赛，want to 想要，hole 洞，there 那里，hide 躲藏，seek 寻找，hide-and-seek 捉迷藏。整节课宝贝注意力很集中，能跟上绘本情节理解 Spot 和土拨鼠的互动，并尝试用 "Spot wants to have a race" 和 "There it is" 等核心句型表达故事内容。课下你可以和宝贝玩捉迷藏游戏，用 "Where are you?" 和 "Here I come!" 练习对话，相信你会越玩越开口喔。非常棒，继续加油！

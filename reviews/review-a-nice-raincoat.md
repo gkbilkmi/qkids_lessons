@@ -1,0 +1,1 @@
+本节课我们阅读了《A Nice Raincoat》，一个小女孩 Susie 满心盼着下雨、好穿上她新买的草莓雨衣的故事。重点单词回顾：raincoat 雨衣，wear 穿，windy 有风的，cloudy 多云的，thunder 雷声，raindrops 雨滴。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。单词和句子的跟读都比较到位，也能主动尝试用简单的句子表达自己的想法。课下你可以用 "It might..." 说说天气，比如 "It might be windy" / "It might rain soon"，再和爸爸妈妈一起看看窗外认一认 sunny、windy、cloudy、rainy 这些天气词，相信你会越说越流利喔。非常棒，继续加油！

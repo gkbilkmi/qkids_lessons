@@ -1,0 +1,1 @@
+本节课我们阅读了《Puppy!》，一个男孩把气球和望远镜交给小狗、小狗一边飘在空中一边数出兔子、小猫、海龟、小鸟和猴子，最后在长椅上睡着的趣味故事。重点单词回顾：balloon 气球，telescope 望远镜，rabbit 兔子，turtle 海龟，monkey 猴子，swim 游泳，fly 飞，swing 荡秋千。整节课宝贝注意力很集中，能跟着老师理解故事情节，主动尝试用完整的句子表达自己的想法。课下你可以重点复习现在进行时 be + 动词-ing（is climbing / is swimming / is flying），并巩固 under / in / over 三个方位介词的位置表达，再读一读 "I see a + 单数名词" 的句式，相信你会越说越流利喔。非常棒，继续加油！

@@ -1,0 +1,1 @@
+本节课我们阅读了《A Crazy Door》，一个门口不断有搞笑动物来敲门、最后连内裤都飞进来的幽默故事。重点单词回顾：grizzly bear 灰熊，platypus 鸭嘴兽，pig 猪，kangaroo 袋鼠，minibus 小巴，goat 山羊，violin 小提琴，flamingo 火烈鸟，band 乐队，underwear 内裤，visit 拜访，ski 滑雪，door 门，knock 敲。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。单词和句子的认读都比较到位，也能主动尝试用完整的句子表达自己的想法。课下你可以和宝贝用 "Who's there?" 和 "A platypus!" 玩敲门游戏，巩固动物单词，相信你会越说越有趣喔。非常棒，继续加油！

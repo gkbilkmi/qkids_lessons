@@ -1,0 +1,1 @@
+本节课我们阅读了《My Sand Pie》，一个小男孩用小桶、铲子、沙子、水和盘子，一步步做出一个"沙派"的趣味故事。重点单词回顾：bucket 小桶，spade 铲子，sand 沙子，water 水，plate 盘子，leaves 叶子，here 这里，sand pie 沙派。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。单词和句子的认读都比较到位，也能主动尝试用完整的句子表达自己的想法。课下你可以重点复习 "Here is the ___" 和 "The ___ goes here" 两个句式，再跟读几遍 bucket / spade / plate / leaves 这几个词，注意 leaf 的复数是 leaves，试着用句式介绍身边的东西会更棒。非常棒，继续加油！

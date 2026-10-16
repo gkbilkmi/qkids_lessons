@@ -1,0 +1,1 @@
+本节课我们阅读了《Cats》，一个认识各种各样的小猫——大的小的、爱热闹的也爱独处的、住在乡下的和城镇里的——最后小男孩问妈妈"我能养几只猫"的可爱故事。重点单词回顾：cat 猫，kitten 小猫，fish 鱼，frown 皱眉，no one 没有人，country 乡下，town 城镇，how many 多少，make 使、让。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。能用 "There is a fish in the bowl." "How many cats can I have?" 这样的完整句子回答问题，理解得很到位。课下你可以重点复习 big-bigger-biggest 这组比较级，再用 "How many...?" 句型问问家里人和自己喜欢的东西，相信你会越问越流利喔。非常棒，继续加油！

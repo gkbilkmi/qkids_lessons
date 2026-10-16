@@ -1,0 +1,1 @@
+本节课我们阅读了《Pat It!》，一个小男孩到处轻轻拍一拍——拍肚子、拍桌椅、拍肩膀，最后温柔地拍拍睡着的小狗的温馨故事。重点单词回顾：pat 拍，tummy 肚子，hair 头发，table 桌子，chair 椅子，shoulders 肩膀，knees 膝盖，gently 轻轻地，puppy 小狗。整节课宝贝注意力很集中，能跟着 "Can you pat your tummy?" 的指令边说边做动作，身体部位单词反应很快。课下你可以一边拍一边说 "I can pat my head / shoulders / knees"，把身体部位单词串起来复习，相信你会记得越来越牢喔。非常棒，继续加油！

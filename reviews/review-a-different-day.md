@@ -1,0 +1,1 @@
+本节课我们阅读了《A Different Day》，一个关于学校日常变成特别演出日的温暖故事。重点单词回顾：costume 服装，curtain 幕布，onstage 台上，peek 偷看，audience 观众，different 不同的，build 搭建，block 积木，sing 唱，story 故事。整节课宝贝注意力很集中，跟着老师的节奏积极互动、大胆开口，学习状态特别好。能跟着老师复述故事走向，理解转折词 But 的用法，还能主动尝试用完整的句子表达自己的想法。课下你可以让宝贝用 "Same as always" 和 "Time to get ready!" 说说自己一天的流程，巩固时间表达，相信你会越说越流利喔。非常棒，继续加油！
