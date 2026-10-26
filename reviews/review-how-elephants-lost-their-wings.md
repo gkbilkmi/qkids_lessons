@@ -1,0 +1,1 @@
+本节课我们阅读了《How Elephants Lost Their Wings》，一个会飞的大象因为吵闹而弄坏树木房屋、最终被收走翅膀的故事。重点单词回顾：wings 翅膀，noisy 吵闹的，yell 大喊，crow 鸣叫，shake 摇晃，smash 撞坏，broken 破了的，feast 宴席，tummy 肚子，sleep 睡觉，god 神，peacock 孔雀，angry 生气的，stomp 跺脚。整节课宝贝很认真，非常棒，继续加油！

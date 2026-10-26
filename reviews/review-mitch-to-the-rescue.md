@@ -1,0 +1,1 @@
+本节课我们阅读了《Mitch to the Rescue》，一个男孩一家人划独木舟时救起一只掉队小鸭、帮它找回鸭妈妈的故事。重点单词回顾：canoe 独木舟，paddle 划桨，duckling 小鸭子，duck 鸭妈妈，rock 岩石，rescue 救援，scoop up 舀起捧起，keep up with 跟上，river bank 河岸，get wet 弄湿，save 拯救。整节课宝贝很认真，非常棒，继续加油！

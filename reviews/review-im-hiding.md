@@ -1,0 +1,1 @@
+本节课我们阅读了《I'm Hiding...》，一个小女孩和爸爸玩捉迷藏、躲在窗帘后、椅子旁、床下、篮子里和床单下，最后被爸爸挠到露出来的小脚丫的故事。重点单词回顾：hiding 躲藏，behind 在……后面，curtain 窗帘，beside 在……旁边，chair 椅子，under 在……下面，bed 床，inside 在……里面，basket 篮子，sheet 床单，tickle 挠痒痒，feet 脚。整节课宝贝很投入，非常棒，继续加油！

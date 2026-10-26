@@ -1,0 +1,1 @@
+本节课我们阅读了《The Summer Camp》，一个关于小鸡 Lola 第一次参加夏令营，唱歌、画画、做点心，玩得舍不得回家的故事。重点单词回顾：summer camp 夏令营，counselor 辅导员，introduce ourselves 自我介绍，arts and crafts 手工，easel 画架，paint 画画，snack 点心，fruit salad 水果沙拉，pick up 接人，the end of the day 一天结束。整节课宝贝很投入，非常棒，继续加油！

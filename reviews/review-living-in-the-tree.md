@@ -1,0 +1,1 @@
+本节课我们阅读了《Living in the Tree》，一个关于老橡树里都住着哪些小动物、最后小女孩也来"报到"的有趣故事。重点单词回顾：owl 猫头鹰，spider 蜘蛛，oak tree 橡树，bee 蜜蜂，raccoon 浣熊，caterpillar 毛毛虫，squirrel 松鼠，beehive 蜂巢，climb 爬，branch 树枝，bedtime 睡觉时间，live in 住在，until 直到。整节课宝贝很投入，非常棒，继续加油！

@@ -1,0 +1,1 @@
+本节课我们阅读了《A Little More, Please》，一个火烈鸟在炎热的夏天去最爱的冰淇淋店，一次次说"再来一点"，最后端着三大球冰淇淋去湖边和朋友们分享的故事。重点单词回顾：hot 热的，summer 夏天，favorite 最喜欢的，shop 商店，ice cream 冰淇淋，strawberry 草莓，scoop 一勺，bowl 碗，enough 足够的，another 再来一个，third 第三个，lake 湖。整节课宝贝很投入，非常棒，继续加油！

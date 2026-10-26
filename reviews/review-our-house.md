@@ -1,1 +1,1 @@
-本节课我们阅读了《Our House》，一个关于两只老鼠住在靴形房子里的奇妙故事。重点单词回顾：shaped 形状，door 门，floor 地板，wall 墙壁，ball 球，cat 猫，slide 滑梯，train 火车，pool 泳池，cool 酷的。整节课宝贝注意力很集中，单词和句子的认读都比较到位，也能主动尝试用完整的句子表达自己的想法。课下你可以用 "Our house has a ____!" 句型替换名词造句，如 "Our house has a big door / a red floor"，再引导孩子用完整句子描述自己最喜欢的部分，如 "My favorite part is the slide because it is fun"，相信你的词汇量经过日积月累会越来越丰富喔。非常棒，继续加油！
+本节课我们阅读了《Our House》，一个两只小老鼠住在一只大鞋子里、房子里有圆门、红地板、绿墙、满屋子的球、七只猫、彩色帽子、滑梯、小火车和紫色泳池的奇妙故事。重点单词回顾：house 房子，shoe 鞋子，round 圆的，door 门，floor 地板，wall 墙壁，ball 球，cat 猫，hat 帽子，slide 滑梯，train 火车，pool 泳池，cool 酷的。整节课宝贝很投入，非常棒，继续加油！

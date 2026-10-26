@@ -1,0 +1,1 @@
+本节课我们阅读了《A House for Mouse》，一个小老鼠到处寻找房子、最后找到刚刚好的一所温暖小家的故事。重点单词回顾：house 房子，need 需要，too small 太小了，too tall 太高了，too hot 太热了，too cold 太冷了，too wet 太湿了，frog 青蛙，bird 鸟，refrigerator 冰箱，fireplace 壁炉，just right 刚刚好，home sweet home 家是温馨的家，warm 温暖的，bed 床。整节课宝贝很认真，非常棒，继续加油！
