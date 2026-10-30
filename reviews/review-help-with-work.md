@@ -1,0 +1,1 @@
+本节课我们阅读了《Help with Work》，一本讲农民们种植物、不同的动物帮他们干农活的温馨小书。重点单词回顾：work 工作，grow plants 种植物，farmer 农民，yak 牦牛，field 田地，strong 强壮的，heavy 重的，ox 牛，pull 拉，plow 犁，soil 泥土，puppy 小狗，helper 帮手，happy 开心的。整节课宝贝很认真，非常棒，继续加油！

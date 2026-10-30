@@ -1,0 +1,1 @@
+本节课我们阅读了《Different and New》，双胞胎 Tex 和 Indi 来到处处是新面孔的夏令营，从紧张得肚子疼，到玩名字游戏玩得不亦乐乎，最后发现"不同和新奇也很有趣"的暖心故事。重点单词回顾：day camp 夏令营，on their way to 在去的路上，the same 一样，different 不同，counselor 辅导员，silly hat 滑稽的帽子，stomachache 肚子疼，form a circle 围成圈，toss 抛，beach ball 沙滩球，laugh 大笑，fantastic 太棒了。整节课宝贝很认真，非常棒，继续加油！

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-qkids_capture.py v8 — 久趣绘本备课截图（替代影刀 Qkids 流程）
+qkids_capture.py v9 — 久趣绘本备课截图（替代影刀 Qkids 流程）
 
 v2 关键修正（来自 v1 自检实测）：
   - 截图按「窗口 ID」截（screencapture -l），不再截屏幕区域：
@@ -35,6 +35,17 @@ v8（正式版完善，2026-10-25 Liang 实测流程跑通后收的尾）：
     不再出现日志停住几分钟没动静的静默卡死。
   - 快速失败说明：到 Story 阶段还读不到页码时，按实际情况分三种
     原因写日志（没等到教室 / 在教室但点击全无反应 / 弹窗关了但进不去）。
+v9（2026-10-28 修「点进入教室点到学生头像」bug）：
+  - 病根：旧版在详情页只点一次「进入教室」就用 entered 标志永不重点；
+    久趣不在最前时第一下点击只激活窗口、被吞，30 秒超时后脚本还盲目
+    继续到关弹窗/Story 阶段 — 那些是教室内的点位，在详情页上正好
+    落在别处：关教学提示 (906,588) 正中学生头像、Story (65,954)
+    正中左下角「个人中心」，实测把页面点进了个人资料页。
+  - 改法：进教室改为验证重试 — 每次点完等加载复检，还在详情页
+    （读到 Overview）就重点，最多 4 次；只有读到 Preview Mode
+    才算进教室。等不到就立刻停并存 debug 图，绝不在详情页继续
+    点教室点位。等教室时限同时由实际的 30 秒对齐到文档写的 75 秒；
+    进入教室按钮中心按 2026-10-28 详情页截图复测改为 (898,902)。
 
 前提：久趣老师端已打开；脚本启动后 75 秒内点进某节课的教室即可
 （停在详情页也行，脚本会自己点进入教室）。运行期间不要碰鼠标键盘。
@@ -73,7 +84,7 @@ WORDBOOK_CLOSE = (738, 533)
 # Word Book × 在 762‰ 附近。
 TEACHING_CLOSE_CANDS = [(906, 588), (928, 588)]
 WORDBOOK_CLOSE_CANDS = [(738, 533), (764, 527)]
-ENTER_BTN = (887, 902)
+ENTER_BTN = (898, 902)
 STORY_DOT = (65, 954)
 RESET_BTN = (59, 324)
 NEXT_BTN = (37, 442)
@@ -402,6 +413,50 @@ def ocr_full(path):
         return ""
 
 
+# 教室左上角 "Preview Mode" 白字的位置（千分比，2026-10-28 教室截图实测
+# 约在 x 297–390‰、y 39–68‰；取宽一点的范围防偏移）
+PREVIEW_REGION = (260, 20, 450, 90)
+
+
+def ocr_preview_mode(path, tmpdir):
+    """专门读教室左上角的 "Preview Mode" 白字：它压在老师摄像头画面上，
+    整页 OCR 读不到（2026-10-28 实测：已进教室 60 秒，整页 OCR 始终
+    读不到，脚本误判没进教室而停）。裁顶部小图后放大 3 倍，依次试
+    原图/自动对比/反色/二值化/二值反色/高阈值反色 × psm 6/7，任一
+    读到 preview 即算在教室。"""
+    from PIL import Image, ImageOps
+    crop = Path(tmpdir) / "preview_crop.png"
+    try:
+        crop_rel(path, PREVIEW_REGION, crop)
+        with Image.open(crop) as im:
+            base = im.convert("L")
+    except Exception:
+        return False
+    big = base.resize((base.width * 3, base.height * 3), Image.LANCZOS)
+    variants = [
+        ("raw", big),
+        ("contrast", ImageOps.autocontrast(big, cutoff=1)),
+        ("invert", ImageOps.invert(big)),
+        ("thresh", big.point(lambda v: 255 if v > 140 else 0)),
+        ("thresh_inv", big.point(lambda v: 0 if v > 140 else 255)),
+        # 白字压浅色背景专用：只有近纯白（字本身）才留黑，其余全白
+        ("hi_thresh_inv", big.point(lambda v: 0 if v > 235 else 255)),
+    ]
+    for name, img in variants:
+        p = Path(tmpdir) / f"preview_ocr_{name}.png"
+        try:
+            img.save(p)
+        except Exception:
+            continue
+        for psm in ("6", "7"):
+            r = run(["/usr/local/bin/tesseract", str(p), "stdout", "--psm", psm], timeout=30)
+            if "preview" in (r.stdout or "").lower():
+                if name != "raw" or psm != "6":
+                    log(f"  Preview Mode 靠预处理[{name}/psm{psm}]读出")
+                return True
+    return False
+
+
 def exit_classroom(win_id, rect, out, tmpdir):
     """点右上角退出教室，用 OCR 验证已回到详情页（读到 Overview）。
     久趣常吞第一次点击：没验证到就在原位置重点，最多 3 次。
@@ -424,26 +479,41 @@ def exit_classroom(win_id, rect, out, tmpdir):
 def wait_for_classroom(win_id, rect, tmpdir, timeout=75):
     """等教室出现。Liang 定的流程是『先启动脚本，再打开久趣进教室』，
     所以脚本先等 Preview Mode；若先看到课程详情页（Overview 在屏），
-    自己点一次「进入教室」再继续等。超时也不报错 — 返回 False 让后面
-    的关弹窗/读页码阶段按实际页面再判断、再报错。"""
+    自己点「进入教室」再继续等。
+
+    v9（2026-10-28）：进教室是验证重试，不是只点一次。久趣不在最前
+    时第一下点击常只激活窗口、被吞（退出教室早已这么处理，见
+    exit_classroom）；旧版 entered 标志让它永不重点，超时后调用方
+    还盲目继续，关弹窗/Story 的教室点位在详情页上正中学生头像和
+    「个人中心」。现在：还在详情页就重点，最多 4 次；只有确认
+    Preview Mode 才返回 True；返回 False 时调用方必须立刻停。
+    确认方式也不能只靠整页 OCR：「Preview Mode」白字压在摄像头
+    画面上整页 OCR 读不到，改用 ocr_preview_mode 裁图预处理读；
+    且每次点击后至少等 12 秒（教室加载慢）才允许凭 Overview 重点，
+    防加载中的过渡帧触发多余点击。"""
     deadline = time.time() + timeout
-    entered = False
+    attempts = 0
+    last_click = 0.0
     while True:
         p = Path(tmpdir) / "wait_full.png"
         ok, _ = shot_window(p, win_id, rect)
         txt = ocr_full(p).lower() if ok else ""
-        if "preview mode" in txt:
+        if "preview mode" in txt or (ok and ocr_preview_mode(p, tmpdir)):
             log("已在教室里（读到 Preview Mode）")
             return True
-        if not entered and "overview" in txt:
+        if "overview" in txt and time.time() - last_click >= 12:
+            if attempts >= 4:
+                log("进教室点满 4 次还停在详情页，放弃 — 不在详情页继续点教室点位")
+                return False
+            attempts += 1
             x, y = rel(rect, ENTER_BTN)
             click_abs(x, y)
-            log(f"看到课程详情页，点进入教室: ({x},{y})，等教室加载…")
-            entered = True
-            time.sleep(6)
+            last_click = time.time()
+            log(f"看到课程详情页，点进入教室 第{attempts}次: ({x},{y})，等教室加载…")
+            time.sleep(8)
             continue
         if time.time() >= deadline:
-            log(f"等教室超时（{timeout}s），按当前页面继续")
+            log(f"等教室超时（{timeout}s），一直没读到 Preview Mode")
             return False
         time.sleep(2.5)
 
@@ -471,7 +541,7 @@ def main():
     tmpdir.mkdir(exist_ok=True)
     LOG_PATH = out / "capture.log"
 
-    log(f"=== qkids_capture v8 {'probe' if args.probe else 'run'} book={args.book!r} ===")
+    log(f"=== qkids_capture v9 {'probe' if args.probe else 'run'} book={args.book!r} ===")
     log(f"python={sys.executable} ({sys.version.split()[0]})")
     if not _CG_OK:
         log(f"CoreGraphics 加载失败: {_CG_ERR}")
@@ -549,6 +619,14 @@ def main():
 
     # 1.5) 等教室（脚本先于「进教室」启动是正常流程 — 见 wait_for_classroom）
     in_classroom = wait_for_classroom(win_id, rect, tmpdir)
+    if not in_classroom:
+        # v9：没确认进教室就立刻停。旧版超时后盲目继续关弹窗/点 Story，
+        # 那些教室点位在详情页上正中学生头像 (906,588 附近) 和左下角
+        # 「个人中心」(65,954)，会把页面点乱（2026-10-28 实测点进了
+        # 个人资料页）。宁可停下重跑，也不许在详情页乱点。
+        shot_window(out / "debug_not_in_classroom.png", win_id, rect)
+        log("没确认进教室，已停在当前页面，没有继续点关弹窗/Story。把久趣提到最前后重跑。已存 debug_not_in_classroom.png，停。")
+        return 2
 
     # 2) 关弹窗（候选点位依次试，画面差验证）
     log("关弹窗…")

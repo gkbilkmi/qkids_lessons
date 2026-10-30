@@ -1,0 +1,1 @@
+本节课我们阅读了《Sheep Station》，一个了解牧羊场上羊毛如何从羊身上到我们生活用品的科普故事。重点单词回顾：sheep station 牧羊场，spring 春天，shear 剪羊毛，hills 山丘，look for 寻找，dogs 牧羊犬，shearers 剪毛工，shearing shed 剪毛棚，cooler 更凉快，summer 夏天，bales of wool 一捆捆羊毛，mill 工厂，yarn 毛线，wool 羊毛。整节课宝贝很认真，非常棒，继续加油！

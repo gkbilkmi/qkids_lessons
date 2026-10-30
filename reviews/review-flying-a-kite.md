@@ -1,0 +1,1 @@
+本节课我们阅读了《Flying a Kite》，两只小猴子没有风放不了风筝，听爷爷的话耐心休息等待，最后风回来了、风筝重新飞上天的可爱故事。重点单词回顾：fly a kite 放风筝，wind 风，ran home 跑回家，grandpa 爷爷，take a break 休息一下，take a nap 小睡，under a tree 在树下，came back 回来，again 又一次，happy 开心。整节课宝贝很认真，非常棒，继续加油！

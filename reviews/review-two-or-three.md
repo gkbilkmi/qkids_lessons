@@ -1,7 +1,1 @@
-# 课后评价草稿（课前生成）
-
-本节课 Sara 小朋友阅读了《Two or Three?》，一个 Meg 和 Ed 在海边数贝壳、数鸟、数青蛙的故事。
-本节课重点单词有：sand 沙滩，shell 贝壳，bird 鸟，frog 青蛙，beach 海边，dig up 挖出，see 看见。课后可以多读几遍加深印象。
-整节课 Sara 小朋友注意力很集中，学习状态特别好。对 two / three 这两个数字和复数名词的掌握都很扎实，能大方地跟着绘本说完整句子。
-课后可以重点复习 dig up 的发音，再用 "I can see two / three ..." 的句式说说你在身边的世界里能看到什么，相信你会越说越流利喔。
-
+本节课我们阅读了《Two or Three?》，一个发生在海边沙滩上、Meg和Ed比赛数数找东西的有趣故事。重点单词回顾：sand 沙子，beach 海滩，dig up 挖出来，two 两个，three 三个，shell 贝壳，bird 鸟，frog 青蛙，see 看见，more 更多的。整节课宝贝很认真，非常棒，继续加油！

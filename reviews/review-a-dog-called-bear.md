@@ -1,0 +1,1 @@
+本节课我们阅读了《A Dog Called Bear》，一只年纪很老、跑得不快的大狗 Bear 勇敢救下小女孩、成为大英雄的暖心故事。重点单词回顾：belong to 属于，hurry up 赶快，wag his tail 摇尾巴，shut the gate 关上栅栏门，whisper 小声说，squeal of brakes 刺耳的刹车声，rush 冲，stagger 摇摇晃晃地走，shaky 颤抖的，bump 轻轻一撞，stop...from 阻止，hero 英雄。整节课宝贝很认真，非常棒，继续加油！

@@ -1,0 +1,1 @@
+本节课我们阅读了《The Careful Crocodile》，一个讲恐龙时代鳄鱼妈妈产下40颗蛋并日夜守护巢穴、赶走偷蛋恐龙，最后小鳄鱼们破壳而出的暖心故事。重点单词回顾：crocodile 鳄鱼，dinosaur 恐龙，egg 蛋，nest 巢，fern 蕨类植物，watch over 守护，hungry 饥饿的，jaws 嘴巴，snap 啪地咬，baby crocodile 小鳄鱼，cries 啼叫声，come out 钻出来。整节课宝贝很认真，非常棒，继续加油！

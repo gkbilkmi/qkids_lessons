@@ -1,0 +1,1 @@
+本节课我们阅读了《Insects》，一本介绍昆虫住在哪里、长什么样、怎么生活和长大的科普小书。重点单词回顾：insect 昆虫，all over the world 全世界，hot 热的，cold 冷的，land 陆地，water 水，wings 翅膀，hive 蜂巢，team 团队，lay eggs 产卵，hatch 孵化，caterpillar 毛毛虫，moth 蛾。整节课宝贝很认真，非常棒，继续加油！
